@@ -117,7 +117,7 @@ export default function Home() {
             </section>
           </a>
 
-          <a target='blank' href='https://countries-front-311fnt2ra-mlucasdelgados-projects.vercel.app/'>
+          <a target='blank' href='https://countries-front-smoky.vercel.app/'>
             <section className='flex flex-row w-3/4 bg-purple-300 mx-auto rounded-lg pl-4 m-10' >
               <section className='flex flex-col w-full'>
                 <h2 className='text-center text-xl font-medium mt-3'>Countries</h2>
