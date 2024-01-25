@@ -117,11 +117,11 @@ export default function Home() {
             </section>
           </a>
 
-          <a target='blank' href=''>
-            <section className='flex flex-row w-3/4 bg-purple-300 mx-auto rounded-lg pl-4 m-10'>
+          <a target='blank' href='https://countries-front-311fnt2ra-mlucasdelgados-projects.vercel.app/'>
+            <section className='flex flex-row w-3/4 bg-purple-300 mx-auto rounded-lg pl-4 m-10' >
               <section className='flex flex-col w-full'>
                 <h2 className='text-center text-xl font-medium mt-3'>Countries</h2>
-                <p className='m-4 text-start pb-4' style={{ borderBottom: '1px solid #431A38' }}>Learn curious facts about the countries, you can also create activities in the country of your dreams.</p>
+                <p className='m-4 text-start pb-4' style={{ borderBottom: '1px solid #431A38' }}>Explore fascinating and diverse facts about countries from around the globe with our comprehensive collection of information. Dream up your ideal itinerary and create custom activities tailored to your interests in any country you desire.</p>
                 <article className='flex flex-col lg:flex-row lg:flex-wrap gap-3 mr-3 mb-4'>
                   <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>Javascript</p>
                   <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>CSS</p>
@@ -133,7 +133,7 @@ export default function Home() {
 
                 </article>
               </section>
-              <Image src="/green.png" alt="logo green wave" width={450} height={500}
+              <Image src="/countries.png" alt="logo green wave" width={500} height={500}
                 style={{ borderRadius: '0.5rem 0.5rem' }}
               />
             </section>
