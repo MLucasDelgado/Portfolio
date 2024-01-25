@@ -17,20 +17,22 @@ export default function Home() {
         <section className='flex flex-col items-center justify-center bg-black h-full'>
           <nav className='mt-5 text-white flex flex-row justify-end gap-10 w-full pr-8'>
             <a href='#about' className='hover:text-purple-300 hover:cursor-pointer hover:transition-transform hover:transform hover:scale-110'>About me</a>
-            <a className='hover:text-purple-300 hover:cursor-pointer hover:transition-transform hover:transform hover:scale-110'>Projects</a>
+            <a href='#proyect' className='hover:text-purple-300 hover:cursor-pointer hover:transition-transform hover:transform hover:scale-110'>Projects</a>
             <a href='#about' className='hover:text-purple-300 hover:cursor-pointer hover:transition-transform hover:transform hover:scale-110'>Technologies</a>
             <a href='#contact' className='hover:text-purple-300 hover:cursor-pointer hover:transition-transform hover:transform hover:scale-110'>Contact me</a>
           </nav>
           <h1 className='text-3xl text-end w-2/3 text-white bebas-neue tracking-wider my-auto'>
-            Hi! My name is Lucas Delgado, and I'm a <span className='text-purple-300 font-bold'>fullstack developer</span> dedicated to creating innovative and scalable web solutions.
+            Hi! My name is Lucas Delgado, and I'm a <span className='text-purple-300 font-bold'>fullstack developer</span> dedicated to creating innovative web solutions.
           </h1>
         </section>
 
       </section>
 
+      {/* ----------- SECCION DE SOBRE MI ----------- */}
+
       <section className='flex flex-col bg-purple-300 h-screen'>
         <section id='about' className='flex flex-row h-full gap-10 items-center '>
-          <section  className='w-3/4 flex flex-col justify-center items-center'>
+          <section className='w-3/4 flex flex-col justify-center items-center'>
             <h2 className='text-3xl font-semibold'>About Me</h2>
             <p className='w-3/4 text-start mt-5 text-lg'>Hello, I'm Lucas Delgado. A 23-year-old Full Stack developer living in Tucuman, Argentina. My personal approach and why I entered programming was because of my passion for the world of Front End development. Being able to create an interface with an eye catching design and an enriching experience for the user is what I am most passionate about in this field.
             </p>
@@ -51,7 +53,7 @@ export default function Home() {
                 <Image src="/js.png" alt="logo javascript" width={65} height={65} />
                 <Image src="/react.png" alt="logo react" width={65} height={65} />
                 <Image src="/redux.png" alt="logo redux" width={65} height={65} />
-                <Image src="/nextjs.png" alt="logo nextjs" width={65} height={65} />
+                <Image src="/next.png" alt="logo nextjs" width={65} height={65} />
                 <Image src="/tailwind.png" alt="logo tailwind" width={65} height={65} />
                 <Image src="/node.png" alt="logo node" width={65} height={65} />
                 <Image src="/Express.png" alt="logo express" width={65} height={65} />
@@ -64,7 +66,7 @@ export default function Home() {
                 <Image src="/js.png" alt="logo javascript" width={65} height={65} />
                 <Image src="/react.png" alt="logo react" width={65} height={65} />
                 <Image src="/redux.png" alt="logo redux" width={65} height={65} />
-                <Image src="/nextjs.png" alt="logo nextjs" width={65} height={65} />
+                <Image src="/next.png" alt="logo nextjs" width={65} height={65} />
                 <Image src="/tailwind.png" alt="logo tailwind" width={65} height={65} />
                 <Image src="/node.png" alt="logo node" width={65} height={65} />
                 <Image src="/Express.png" alt="logo express" width={65} height={65} />
@@ -88,9 +90,61 @@ export default function Home() {
         </section>
       </section>
 
-      <section id='contact' className='w-full h-screen bg-black flex justify-center items-center'>
-        <section className='flex flex-row w-3/4 mx-auto items-center bg-white rounded-lg py-10 shadow-lg' style={{ boxShadow: '0 3px 4px 1px #805ad5, 0 2px 4px 3px #805ad5' }}>
+      {/* ----------- SECCION DE PROYECTOS ----------- */}
 
+      <section id='proyect' className='w-full bg-fondo'>
+        <section className='flex flex-col justify-center'>
+          <h2 className='text-3xl font-semibold text-center py-6'>Projects</h2>
+          <a target='blank' href='https://greenwave-henry.vercel.app/'>
+            <section className='flex flex-row w-3/4 bg-purple-300 mx-auto rounded-lg pr-4'>
+              <Image src="/green.png" alt="logo green wave" width={450} height={500}
+                style={{ borderRadius: '0.5rem 0.5rem' }}
+              />
+              <section className='flex flex-col w-full'>
+                <h2 className='text-center text-xl font-medium mt-3'>Green Wave</h2>
+                <p className='m-4 text-start pb-4' style={{ borderBottom: '1px solid #431A38' }}>We are dedicated to promoting awareness of the vital importance of the environment and recycling, recognizing that these issues are fundamental to the well-being of our planet and future generations.</p>
+                <article className='flex flex-col lg:flex-row lg:flex-wrap gap-3 ml-3 mb-4'>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>Javascript</p>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>CSS</p>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>Tailwind</p>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>Next.Js</p>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>Node.Js</p>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>Express</p>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>PostgreSQL</p>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>Mercado Pago</p>
+                </article>
+              </section>
+            </section>
+          </a>
+
+          <a target='blank' href=''>
+            <section className='flex flex-row w-3/4 bg-purple-300 mx-auto rounded-lg pl-4 m-10'>
+              <section className='flex flex-col w-full'>
+                <h2 className='text-center text-xl font-medium mt-3'>Countries</h2>
+                <p className='m-4 text-start pb-4' style={{ borderBottom: '1px solid #431A38' }}>Learn curious facts about the countries, you can also create activities in the country of your dreams.</p>
+                <article className='flex flex-col lg:flex-row lg:flex-wrap gap-3 mr-3 mb-4'>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>Javascript</p>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>CSS</p>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>React</p>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>Redux</p>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>Node.Js</p>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>Express</p>
+                  <p className='flex-auto text-center bg-tecnologia rounded-lg px-2' style={{ border: '1px solid black' }}>PostgreSQL</p>
+
+                </article>
+              </section>
+              <Image src="/green.png" alt="logo green wave" width={450} height={500}
+                style={{ borderRadius: '0.5rem 0.5rem' }}
+              />
+            </section>
+          </a>
+        </section>
+      </section>
+
+      {/* ----------- SECCION DE CONTACTO ----------- */}
+
+      <section id='contact' className='w-full h-screen bg-black flex justify-center items-center'>
+        <section className='flex flex-row w-3/4 mx-auto items-center bg-conect rounded-lg py-10' style={{ boxShadow: '0 3px 4px 1px #805ad5, 0 2px 4px 3px #805ad5' }}>
           <section className='flex flex-col w-full pl-16'>
             <h2 className='text-left font-semibold mt-5 text-3xl'>Let's Connect!</h2>
             <p className='pt-6 text-left w-4/5 text-lg'>
@@ -132,7 +186,7 @@ export default function Home() {
           </section>
         </section>
       </section>
-      <footer className='bg-footer text-center py-3 text-lg'>Copyright © Lucas Mariano Delgado. All rights reserved.</footer>
+      <footer className='bg-footer text-center py-3 text-lg font-medium'>Copyright © Lucas Mariano Delgado. All rights reserved.</footer>
     </main>
   )
 }

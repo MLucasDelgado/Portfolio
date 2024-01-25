@@ -18,6 +18,10 @@ module.exports = {
         'fondo': '#d4d9f7',
         'sobre': '#576C92',
         'footer': '#d8b4fe',
+        'conect': '#ffffff',
+        'proyects': '#F8D3FE',
+        'description': '#FFADE9',
+        'tecnologia': '#BEA1BD',
       },
       fontFamily: {
         'anton': ['Anton', 'sans-serif'],
