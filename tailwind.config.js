@@ -16,7 +16,8 @@ module.exports = {
         'nav': '#146F84',
         'seccion': '#0A1E43',
         'fondo': '#d4d9f7',
-        'sobre': '#576C92'
+        'sobre': '#576C92',
+        'footer': '#d8b4fe',
       },
       fontFamily: {
         'anton': ['Anton', 'sans-serif'],
