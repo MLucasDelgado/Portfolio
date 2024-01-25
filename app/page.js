@@ -78,13 +78,13 @@ export default function Home() {
             </section>
           </section>
 
-          <section className='mr-5 flex justify-center w-1/2'>
+          <section className='mr-5 flex justify-center w-1/2' style={{borderRadius: '100%'}}>
             <Image
-              src="/me1.gif"
+              src="/my.png"
               alt="logo"
-              width={300}
-              height={300}
-              style={{ borderRadius: '20%' }}
+              width={200}
+              height={200}
+              style={{ borderRadius: '100%', height: '310px', width: '300px', border: '1px solid black', boxShadow: '0 4px 6px -1px #40205e, 0 2px 4px -1px #40205e' }}
             />
           </section>
         </section>
