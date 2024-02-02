@@ -185,7 +185,7 @@ export default function Home() {
           <section className='flex flex-col justify-center items-center sm:items-start w-full sm:pl-16'>
             <h2 className='text-left font-semibold mt-5 text-3xl'>Let's Connect!</h2>
             <p className='pt-6 sm:text-left text-center w-4/5 text-lg'>
-              <span className='font-semibold'>I'm always up for a chat</span> and would love to hear from you. Feel free to reach out via email at <a className='hover:text-purple-400 text-purple-700' target='blank' href='mailto:lucasdelgado.dev@gmail.com'>lucasdelgado.dev@gmail.com</a>. Additionally, you can connect with me on social media.
+              <span className='font-semibold'>I'm always up for a chat</span> and would love to hear from you. Feel free to reach out via email at <a className='hover:text-purple-400 text-purple-700' target='blank' href='mailto:lucasdelgado.dev@gmail.com'>lucasdelgado.dev@gmail.com</a>. Additionally, you can find me on social media.
             </p>
             <section className='mt-6 flex flex-row items-start gap-5'>
               <a target='blank' href='https://www.linkedin.com/in/lucas-delgado-77b582165/' className='hover:bg-purple-400 hover:rounded-lg'>
