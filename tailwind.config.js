@@ -22,6 +22,8 @@ module.exports = {
         'proyects': '#F8D3FE',
         'description': '#FFADE9',
         'tecnologia': '#BEA1BD',
+        'mobil': '#886C9F',
+        'enlaces': '#905592'
       },
       fontFamily: {
         'anton': ['Anton', 'sans-serif'],
